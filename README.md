@@ -1,4 +1,11 @@
-# Machine learning based avalanche hazzard prediction
-### Based on a collection of samples with and without avalanche release different classifiers are compared with respect to avalanche prediction scores.
+# Avalanche hazard prediction
+### Supervised learning and prediction of terrain-specific avalanche hazard levels.
 
-Open the learning_from_bulletins.ipynb Jupyter Notebook for a detailed description.
+The approach is based on the following datasets:
+- a collection of events with (n~500) and without (n > 2000) reported avalanche release
+- spatially interpolated timeseries of SLF danger bulletins
+- a digital surface model from which information about the local terrain are calculated
+
+It explores a number of classification algorithms in view of a minimization of false negative rates while keeping the true positive rate as high as possible.
+
+For a deescription of the projects current state, please open the Jupyter notebook "learning_from_bulletins.ipynb"
