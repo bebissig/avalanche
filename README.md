@@ -8,4 +8,4 @@ The approach is based on the following datasets:
 
 It explores a number of classification algorithms in view of a minimization of false negative rates while keeping the true positive rate as high as possible.
 
-For a deescription of the projects current state, please open the Jupyter notebook "learning_from_bulletins.ipynb"
+For a description of the projects current state, please open the Jupyter notebook "learning_from_bulletins.ipynb"
